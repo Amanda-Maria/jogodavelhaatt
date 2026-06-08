@@ -399,7 +399,6 @@ def jogada_ia():
 
 
 def _registrar_historico(jogada):
-    """Registra a jogada escolhida no histórico do Q-learning."""
     estado = ia.estado_para_string(tabuleiro)
     ia.historico_partida.append((estado, jogada))
 
